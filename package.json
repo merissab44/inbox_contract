@@ -1,0 +1,22 @@
+{
+  "name": "inbox_contract",
+  "version": "1.0.0",
+  "description": "This is an example of a solidity contract",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/merissab44/inbox_contract.git"
+  },
+  "author": "Merissa Bridgeman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/merissab44/inbox_contract/issues"
+  },
+  "homepage": "https://github.com/merissab44/inbox_contract#readme",
+  "dependencies": {
+    "solc": "^0.4.26"
+  }
+}
