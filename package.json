@@ -4,7 +4,7 @@
   "description": "This is an example of a solidity contract",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/merissab44/inbox_contract#readme",
   "dependencies": {
-    "solc": "^0.4.26"
+    "ganache-cli": "^6.12.2",
+    "mocha": "^8.4.0",
+    "solc": "^0.4.26",
+    "web3": "^1.0.0-beta.26"
   }
 }
